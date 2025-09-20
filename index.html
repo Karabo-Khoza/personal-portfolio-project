@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
       rel="stylesheet"
     />
     <script
@@ -28,109 +28,183 @@
     <title>Personal</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">KLK</a>
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Pages</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Me</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </nav>
-    <div class="header">
-      <p>Hi, I am</p>
+    <header>
+      <h2>Hi, I am</h2>
       <h1>Karabo Laurah Khoza</h1>
-      <h2>Aspiring Web-developer based in South Africa</h2>
-      <a href="#" class="btn btn-branding">Contact me</a>
-    </div>
-    <div class="main">
+      <h3>Aspiring Web-developer based in South Africa</h3>
+      <a href="#" class="btn btn-branding">About Me</a>
+    </header>
+    <main>
+      <h4>Here are just a few of my projects</h4>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="images/yoga.png" alt="Yoga" class="img-fluid rounded" />
+            <img
+              src="images/myfirstproject.png"
+              alt="Crackers"
+              class="img-fluid rounded"
+            />
           </div>
           <div class="col-md-6">
-            <h2 class="mb-3">Yoga App</h2>
+            <h2 class="mb-3">First Web-page</h2>
             <p class="app-description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-              aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
-              qui alias veniam excepturi rem dolor fugit dignissimos, sed
-              voluptatum blanditiis harum.
+              This is my first web-page that I created using HTML and CSS. I
+              created this page as part of my learning journey in web
+              development. It was a fun and exciting experience to see my ideas
+              come to life on the screen. I learned a lot about the basics of
+              web development and I was excited to continue learning and
+              creating more projects in the future.
             </p>
-            <div class="mt-5">
-              <a href="#" class="btn-branding" title="click to launch"
-                >Yoga App Launch</a
-              >
+            <div class="d-flex gap-3">
+              <div class="mt-5">
+                <a href="#" class="btn-branding" title="click to launch"
+                  >View Code</a
+                >
+              </div>
+              <div class="mt-5">
+                <a href="#" class="btn-branding-two" title="click to launch"
+                  >View Project</a
+                >
+              </div>
             </div>
           </div>
         </div>
         <div class="row mt-5">
+          <div class="col-md-6">
+            <h2 class="mb-3">Favourite Hobby</h2>
+            <p class="app-description">
+              This was the second project that I did when I started learning
+              coding. I used HTML, CSS, and javascript to make this web-page. I
+              learnt more about CSS and how to structure a web-page using the
+              grid css element. I also learnt some basic javascript to make the
+              theme button work. The best part about this project is that I got
+              to code about one of the things that I love doing which is
+              drawing.
+            </p>
+            <div class="d-flex gap-3">
+              <div class="mt-5">
+                <a href="#" class="btn-branding" title="click to launch"
+                  >View Code</a
+                >
+              </div>
+              <div class="mt-5">
+                <a href="#" class="btn-branding-two" title="click to launch"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="images/myfavouritehobby.png"
+              alt="Drawing"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <img
+              src="images/mypinkweatherapp.png"
+              alt="Weather App"
+              class="img-fluid rounded"
+            />
+          </div>
           <div class="col-md-6">
             <h2 class="mb-3">Weather App</h2>
             <p class="app-description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-              aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
-              qui alias veniam excepturi rem dolor fugit dignissimos, sed
-              voluptatum blanditiis harum.
+              This is my third project that I did when I started learning
+              coding. I used HTML, CSS, and javascript to make this web-page. I
+              learnt more about javascript and how to use APIs to get data from
+              a server. I also learnt how to use the fetch function to get data
+              from an API and how to display that data on a web-page. The best
+              part about this project is that I got to use an API to get real
+              time weather data.
             </p>
-            <div class="mt-5">
-              <a href="#" class="btn-branding" title="click to launch"
-                >Weather App Launch</a
-              >
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img
-              src="images/weather.png"
-              alt="Weather"
-              class="img-fluid rounded"
-            />
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-md-6">
-            <img
-              src="images/yogurt.png"
-              alt="Yogurt"
-              class="img-fluid rounded"
-            />
-          </div>
-          <div class="col-md-6">
-            <h2 class="mb-3">Yogurt App</h2>
-            <p class="app-description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-              aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
-              qui alias veniam excepturi rem dolor fugit dignissimos, sed
-              voluptatum blanditiis harum.
-            </p>
-            <div class="mt-5">
-              <a href="#" class="btn-branding" title="click to launch"
-                >Yogurt App Launch</a
-              >
+            <div class="d-flex gap-3">
+              <div class="mt-5">
+                <a href="#" class="btn-branding" title="click to launch"
+                  >View Code</a
+                >
+              </div>
+              <div class="mt-5">
+                <a href="#" class="btn-branding-two" title="click to launch"
+                  >View Project</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer">
-      <h2>Work inquiry</h2>
-      <a href="#" class="btn btn-branding">Contact me</a>
-      <p>&copy; 2025 Karabo Laurah Khoza. All rights reserved.</p>
-    </div>
+    </main>
+    <footer>
+      <div class="footer-top">
+        <div>
+          <h3>Want to see more</h3>
+          <p>
+            <em>Feel free to reach out to me on any of the platforms below</em>
+          </p>
+        </div>
+        <div>
+          <a href="#" class="btn btn-branding">See More</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <a href="#">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <p>&copy; 2025 Karabo Laurah Khoza. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
