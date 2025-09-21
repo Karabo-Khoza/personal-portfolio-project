@@ -174,6 +174,21 @@ a {
 
 /* About Page */
 
+.about-me h3 {
+  font-size: 26px;
+}
+
+.img-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 20px;
+  box-shadow: var(--box-shadow);
+  max-width: 100%;
+  width: 900px;
+}
+
 /* Work Page */
 
 /* Contact Page */
