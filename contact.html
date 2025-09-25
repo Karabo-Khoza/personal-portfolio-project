@@ -75,42 +75,95 @@
         </div>
       </div>
     </nav>
-    <main>
-      <div class="container about-me">
+    <header class="contact-header">
+      <h1>Karabo Khoza</h1>
+      <h3>Web Developer | Designer | Creator</h3>
+    </header>
+    <section class="contact-me">
+      <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2>I am Karabo Khoza</h2>
-            <h3>An aspiring web developer based in South Africa</h3>
-            <p>
-              I have a passion for creating beautiful and functional websites
-              that provide an excellent user experience. I am currently learning
-              multi-page websites and responsive code to build my skills and
-              knowledge in web development. I will soon be learning front-end
-              frameworks like React and back-end technologies like Node.js and
-              databases. I am excited to continue my journey in web development
-              and create amazing websites that help people.
-            </p>
-            <p>
-              In addition to my technical skills, I am also a creative problem
-              solver and a team player. I enjoy collaborating with others to
-              bring ideas to life and create innovative solutions. When I'm not
-              coding, I love exploring new places, trying out new recipes, and
-              spending time with friends and family. Thank you for visiting my
-              portfolio website. Please feel free to reach out to me if you have
-              any questions or would like to connect!
-            </p>
-            <a href="/" class="btn btn-branding">Back to Home</a>
+            <h2>Contact Me</h2>
+            <form>
+              <div class="mb-3 mt-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="_replyto"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-branding">Send</button>
+            </form>
           </div>
           <div class="col-md-6">
-            <img
-              src="images/aboutme.jpg"
-              alt="About Me"
-              class="img-fluid rounded"
-            />
+            <h2>Get in Touch</h2>
+            <p>
+              Feel free to reach out to me via email or connect with me on
+              social media!
+            </p>
+            <p>
+              Email:
+              <a href="mailto:laurah.karabo@gmail.com"
+                >laurah.karabo@gmail.com</a
+              >
+            </p>
+            <p>
+              Phone/WhatsApp: <a href="tel:+27790746325">+27 79 074 6325</a>
+            </p>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/karabo-khoza/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-linkedin fa-2x"></i
+              ></a>
+              <a
+                href="instagram.com/karabo_khoza/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-instagram fa-2x"></i
+              ></a>
+              <a
+                href="facebook.com/karabo.khoza.7"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-facebook fa-2x"></i
+              ></a>
+              <a
+                href="github.com/Karabo-Khoza"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </main>
+    </section>
     <footer>
       <div class="footer-top">
         <div>
@@ -129,10 +182,8 @@
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-github"></i>
           <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-x-twitter"></i>
-          <i class="fa-solid fa-envelope"></i>
         </a>
-        <p>&copy; 2025 Karabo Laurah Khoza. All rights reserved.</p>
+        <p>&copy; 2025 Karabo Khoza. All rights reserved.</p>
       </div>
     </footer>
   </body>
