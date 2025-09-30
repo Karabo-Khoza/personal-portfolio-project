@@ -168,8 +168,17 @@ i {
   margin: 10px 10px;
 }
 
-a {
+footer a {
   text-decoration: none;
+}
+
+footer p a {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+footer p a:hover {
+  text-decoration: underline;
 }
 
 /* About Page */
