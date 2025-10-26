@@ -57,3 +57,27 @@ document.getElementById("myDropdownNine").onchange = function () {
     window.open(this.value, "_blank");
   }
 };
+
+document.getElementById("myDropdownTen").onchange = function () {
+  if (this.value) {
+    window.open(this.value, "_blank");
+  }
+};
+
+document.getElementById("myDropdownEleven").onchange = function () {
+  if (this.value) {
+    window.open(this.value, "_blank");
+  }
+};
+
+document.getElementById("myDropdownTwelve").onchange = function () {
+  if (this.value) {
+    window.open(this.value, "_blank");
+  }
+};
+
+document.getElementById("myDropdownThirteen").onchange = function () {
+  if (this.value) {
+    window.open(this.value, "_blank");
+  }
+};

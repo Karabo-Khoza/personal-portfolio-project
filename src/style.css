@@ -210,9 +210,6 @@ h3 {
   font-family: var(--body-font);
   color: var(--primary-color);
   font-size: 18px;
-  list-style-type: disc;
-  padding-left: 20px;
-  margin-top: 10px;
 }
 
 .d-flex {
